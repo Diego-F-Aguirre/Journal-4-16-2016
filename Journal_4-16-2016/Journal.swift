@@ -13,5 +13,13 @@ import CoreData
 class Journal: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
+    static let kClassName = "Journal"
+    
+    convenience init?(title: String, context: NSManagedObjectContext = Stack.sharedStack.managedObjectContext) {
+        guard let entity = NSEntityDescription.entityForName(Journal.kClassName, inManagedObjectContext: context) else { return nil }
+        
+        self.init(entity: entity, insertIntoManagedObjectContext: context)
+        self.title = title
+    }
 
 }
