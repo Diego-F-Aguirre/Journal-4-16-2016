@@ -1,5 +1,5 @@
 //
-//  Entry.swift
+//  Journal.swift
 //  Journal_4-16-2016
 //
 //  Created by Diego Aguirre on 4/21/16.
@@ -10,7 +10,7 @@ import Foundation
 import CoreData
 
 
-class Entry: NSManagedObject {
+class Journal: NSManagedObject {
 
 // Insert code here to add functionality to your managed object subclass
 

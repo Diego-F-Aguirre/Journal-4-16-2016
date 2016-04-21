@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC46CE751CC948BB006BAFC0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE741CC948BB006BAFC0 /* Stack.swift */; };
+		BC46CE791CC948FC006BAFC0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE771CC948FC006BAFC0 /* Model.xcdatamodeld */; };
 		BC83C2361CC2D5F7001405DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C2351CC2D5F7001405DF /* AppDelegate.swift */; };
 		BC83C23B1CC2D5F7001405DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC83C2391CC2D5F7001405DF /* Main.storyboard */; };
 		BC83C23D1CC2D5F7001405DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC83C23C1CC2D5F7001405DF /* Assets.xcassets */; };
@@ -18,6 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC46CE741CC948BB006BAFC0 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		BC46CE781CC948FC006BAFC0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
 		BC83C2321CC2D5F7001405DF /* Journal_4-16-2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal_4-16-2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC83C2351CC2D5F7001405DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC83C23A1CC2D5F7001405DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,6 +45,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BC46CE761CC948E4006BAFC0 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				BC46CE741CC948BB006BAFC0 /* Stack.swift */,
+				BC46CE771CC948FC006BAFC0 /* Model.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
 		BC83C2291CC2D5F7001405DF = {
 			isa = PBXGroup;
 			children = (
@@ -60,6 +73,7 @@
 		BC83C2341CC2D5F7001405DF /* Journal_4-16-2016 */ = {
 			isa = PBXGroup;
 			children = (
+				BC46CE761CC948E4006BAFC0 /* CoreData */,
 				BC83C2491CC2D615001405DF /* Model */,
 				BC83C2481CC2D610001405DF /* View */,
 				BC83C2471CC2D604001405DF /* Control */,
@@ -171,7 +185,9 @@
 				BC83C24B1CC2E2E4001405DF /* Entry.swift in Sources */,
 				BC83C2361CC2D5F7001405DF /* AppDelegate.swift in Sources */,
 				BC83C2511CC2E70F001405DF /* EntryController.swift in Sources */,
+				BC46CE791CC948FC006BAFC0 /* Model.xcdatamodeld in Sources */,
 				BC83C24F1CC2E581001405DF /* EntryDetailViewController.swift in Sources */,
+				BC46CE751CC948BB006BAFC0 /* Stack.swift in Sources */,
 				BC83C24D1CC2E560001405DF /* EntryListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,8 +338,22 @@
 				BC83C2461CC2D5F7001405DF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BC46CE771CC948FC006BAFC0 /* Model.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BC46CE781CC948FC006BAFC0 /* Model.xcdatamodel */,
+			);
+			currentVersion = BC46CE781CC948FC006BAFC0 /* Model.xcdatamodel */;
+			path = Model.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BC83C22A1CC2D5F7001405DF /* Project object */;
 }
