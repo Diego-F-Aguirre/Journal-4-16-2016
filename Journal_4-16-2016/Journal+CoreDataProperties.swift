@@ -14,7 +14,7 @@ import CoreData
 
 extension Journal {
 
-    @NSManaged var title: String?
+    @NSManaged var title: String
     @NSManaged var entries: NSOrderedSet?
 
 }

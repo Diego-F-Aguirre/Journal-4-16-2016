@@ -14,9 +14,9 @@ import CoreData
 
 extension Entry {
 
-    @NSManaged var timeStamp: NSDate?
-    @NSManaged var bodyText: String?
-    @NSManaged var title: String?
-    @NSManaged var journal: Journal?
+    @NSManaged var timeStamp: NSDate
+    @NSManaged var bodyText: String
+    @NSManaged var title: String
+    @NSManaged var journal: Journal
 
 }

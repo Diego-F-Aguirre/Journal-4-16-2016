@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		BC46CE751CC948BB006BAFC0 /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE741CC948BB006BAFC0 /* Stack.swift */; };
 		BC46CE791CC948FC006BAFC0 /* Model.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE771CC948FC006BAFC0 /* Model.xcdatamodeld */; };
+		BC46CE8A1CC94DFC006BAFC0 /* Entry+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE861CC94DFC006BAFC0 /* Entry+CoreDataProperties.swift */; };
+		BC46CE8B1CC94DFC006BAFC0 /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE871CC94DFC006BAFC0 /* Entry.swift */; };
+		BC46CE8C1CC94DFC006BAFC0 /* Journal+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE881CC94DFC006BAFC0 /* Journal+CoreDataProperties.swift */; };
+		BC46CE8D1CC94DFC006BAFC0 /* Journal.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC46CE891CC94DFC006BAFC0 /* Journal.swift */; };
 		BC83C2361CC2D5F7001405DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C2351CC2D5F7001405DF /* AppDelegate.swift */; };
 		BC83C23B1CC2D5F7001405DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC83C2391CC2D5F7001405DF /* Main.storyboard */; };
 		BC83C23D1CC2D5F7001405DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC83C23C1CC2D5F7001405DF /* Assets.xcassets */; };
 		BC83C2401CC2D5F7001405DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC83C23E1CC2D5F7001405DF /* LaunchScreen.storyboard */; };
-		BC83C24B1CC2E2E4001405DF /* Entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C24A1CC2E2E4001405DF /* Entry.swift */; };
 		BC83C24D1CC2E560001405DF /* EntryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C24C1CC2E560001405DF /* EntryListViewController.swift */; };
 		BC83C24F1CC2E581001405DF /* EntryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C24E1CC2E581001405DF /* EntryDetailViewController.swift */; };
 		BC83C2511CC2E70F001405DF /* EntryController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC83C2501CC2E70F001405DF /* EntryController.swift */; };
@@ -22,13 +25,16 @@
 /* Begin PBXFileReference section */
 		BC46CE741CC948BB006BAFC0 /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
 		BC46CE781CC948FC006BAFC0 /* Model.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Model.xcdatamodel; sourceTree = "<group>"; };
+		BC46CE861CC94DFC006BAFC0 /* Entry+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BC46CE871CC94DFC006BAFC0 /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
+		BC46CE881CC94DFC006BAFC0 /* Journal+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Journal+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BC46CE891CC94DFC006BAFC0 /* Journal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Journal.swift; sourceTree = "<group>"; };
 		BC83C2321CC2D5F7001405DF /* Journal_4-16-2016.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Journal_4-16-2016.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC83C2351CC2D5F7001405DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BC83C23A1CC2D5F7001405DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BC83C23C1CC2D5F7001405DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC83C23F1CC2D5F7001405DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC83C2411CC2D5F7001405DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BC83C24A1CC2E2E4001405DF /* Entry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Entry.swift; sourceTree = "<group>"; };
 		BC83C24C1CC2E560001405DF /* EntryListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryListViewController.swift; sourceTree = "<group>"; };
 		BC83C24E1CC2E581001405DF /* EntryDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryDetailViewController.swift; sourceTree = "<group>"; };
 		BC83C2501CC2E70F001405DF /* EntryController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EntryController.swift; sourceTree = "<group>"; };
@@ -48,6 +54,8 @@
 		BC46CE761CC948E4006BAFC0 /* CoreData */ = {
 			isa = PBXGroup;
 			children = (
+				BC46CE861CC94DFC006BAFC0 /* Entry+CoreDataProperties.swift */,
+				BC46CE881CC94DFC006BAFC0 /* Journal+CoreDataProperties.swift */,
 				BC46CE741CC948BB006BAFC0 /* Stack.swift */,
 				BC46CE771CC948FC006BAFC0 /* Model.xcdatamodeld */,
 			);
@@ -106,7 +114,8 @@
 		BC83C2491CC2D615001405DF /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				BC83C24A1CC2E2E4001405DF /* Entry.swift */,
+				BC46CE871CC94DFC006BAFC0 /* Entry.swift */,
+				BC46CE891CC94DFC006BAFC0 /* Journal.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -182,12 +191,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BC83C24B1CC2E2E4001405DF /* Entry.swift in Sources */,
+				BC46CE8B1CC94DFC006BAFC0 /* Entry.swift in Sources */,
+				BC46CE8D1CC94DFC006BAFC0 /* Journal.swift in Sources */,
 				BC83C2361CC2D5F7001405DF /* AppDelegate.swift in Sources */,
+				BC46CE8A1CC94DFC006BAFC0 /* Entry+CoreDataProperties.swift in Sources */,
 				BC83C2511CC2E70F001405DF /* EntryController.swift in Sources */,
 				BC46CE791CC948FC006BAFC0 /* Model.xcdatamodeld in Sources */,
 				BC83C24F1CC2E581001405DF /* EntryDetailViewController.swift in Sources */,
 				BC46CE751CC948BB006BAFC0 /* Stack.swift in Sources */,
+				BC46CE8C1CC94DFC006BAFC0 /* Journal+CoreDataProperties.swift in Sources */,
 				BC83C24D1CC2E560001405DF /* EntryListViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
